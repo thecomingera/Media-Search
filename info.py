@@ -11,7 +11,7 @@ APP_ID = int(environ['APP_ID'])
 API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
 USERBOT_STRING_SESSION = environ.get('USERBOT_STRING_SESSION')
-BOT_OWNER = int(os.environ.get("BOT_OWNER", 1069002447))
+BOT_OWNER = int(os.environ.get("BOT_OWNER", 1161352331))
 BOT_USERNAME = os.environ.get("BOT_USERNAME")
 
 # Bot settings
@@ -43,7 +43,7 @@ BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1
 
 #for broadcast and user stts db
 MONGODB_URI = os.environ.get("MONGODB_URI", "")
-SESSION_NAME = os.environ.get("SESSION_NAME", "LeoMediaSearchBot")
+SESSION_NAME = os.environ.get("SESSION_NAME", "StreamerViewSearchBot")
 # Messages
 default_start_massege = """
 **Hi {}👋
