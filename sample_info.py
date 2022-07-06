@@ -1,5 +1,5 @@
 # Bot information
-SESSION = 'LeoMediaSearchBot'
+SESSION = 'StreamerViewSearchBot'
 USER_SESSION = 'User_Bot'
 API_ID = 12345
 API_HASH = '0123456789abcdef0123456789abcdef'
@@ -12,8 +12,8 @@ CACHE_TIME = 300
 USE_CAPTION_FILTER = False
 
 # Admins, Channels & Users
-ADMINS = [12345789, 'admin123', 98765432]
-CHANNELS = [-10012345678, -100987654321, 'channelusername']
+ADMINS = [1161352331, 'riturajpratapsingh', 1925122511]
+CHANNELS = [-100, -100, 'channelusername']
 AUTH_USERS = []
 AUTH_CHANNEL = None
 
